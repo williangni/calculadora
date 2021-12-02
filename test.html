@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>CALCULADORA</h1>
+    </header>
+    <section>
+        <div>   
+           <input type="number" name="num1" id="num1">
+           <input type="number" name="num2" id="num2">
+           <p id="opcoes">
+            <input type="radio" name="cal" id="soma" checked>
+            <label for="soma">Somar</label>   
+            <input type="radio" name="cal" id="subtrair">
+            <label for="subtrair">Subtrair</label>
+            <input type="radio" name="cal" id="mult">
+            <label for="mult">Multiplicar</label>
+            <input type="radio" name="cal" id="div">
+            <label for="div">Dividir</label>
+            </p>
+            <p>
+            <input id= "botao" type="button" value="CALCULAR" onclick="calcular()">
+
+           </p>
+           
+        </div>
+        <div id='res'>
+            Preencha os dados
+
+        </div>
+
+    </section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
